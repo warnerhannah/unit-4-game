@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystals Collector!</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head> 
+
+<body>
+    <header>
+        <h1>Crystals Collector!</h1>
+    </header>
+
+    <div class="instructions">
+        <p>You will receive a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.</p>
+        <p>You win the game by matching your total score to the random number, you lose the game if your total score
+            goes above the random number.</p>
+        <p>Each time the game starts the values of each crystal will change.</p>
+    </div>
+
+    <div class="crystals">
+        <button id="pinkcrystal" value="0"><img class="crystal" src="assets/images/pinkcrystal.jpg" alt="Pink Crystal"></button>
+        <button id="bluecrystal" value="0"><img class="crystal" src="assets/images/bluecrystal.png" alt="Blue Crystal"></button>
+        <button id="yellowcrystal" value="0"><img class="crystal" src="assets/images/yellowcrystal.jpg" alt="Yellow Crystal"></button>
+        <button id="greencrystal" value="0"><img class="crystal" src="assets/images/greencrystal.jpg" alt="Green Crystal"></button>
+    </div>
+
+    <div class="mainsection">
+        <div class="numbers" id="random">
+            <h2>Random Number:</h2>
+            <p id="random_number"></p>
+        </div>
+
+        <div class="numbers" id="score">
+            <h2>Your Score:</h2>
+            <p id="your_score"></p>
+        </div>
+
+        <div class="numbers">
+            <h2>Wins: <p id="wins_tally"></p></h2>
+            <h2>Losses: <p id="losses_tally"></p></h2>
+        </div>
+
+    </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

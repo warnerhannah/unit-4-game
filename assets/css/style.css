@@ -1,0 +1,79 @@
+body {
+    background: #ffcccc;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+html {
+    font-family: "Comic Sans MS", cursive, sans-serif	;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+.instructions {
+    padding: 10px;
+    background: white;
+    color: #800000;
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#random_number {
+    text-align: center;
+}
+
+#wins_tally,
+#losses_tally {
+    text-align: center;
+}
+
+.crystals {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.crystal {
+    height: 100px;
+    width: 100px;
+    padding: 10px 40px;
+}
+
+.mainsection {
+    display: flex;
+}
+
+.numbers {
+    width: 30%;
+    margin: 20px;
+    padding: 5%;
+    background: #800000;
+    color: white;
+
+}
+
+h2 {
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+button {
+    margin: 20px;
+
+}
+
+#your_score {
+    text-align: center;
+}
